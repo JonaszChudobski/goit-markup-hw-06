@@ -600,12 +600,12 @@ h3 {
   left: -10px;
   width: 16px;
   height: 15px;
-  background-image: url("/images/icon-unchecked.svg");
+  background-image: url("./images/icon-unchecked.svg");
 }
 
 .modal-window-form-policy-input:checked
   + .modal-window-form-policy-label::before {
-  background-image: url("/images/icon-checked.svg");
+  background-image: url("./images/icon-checked.svg");
 }
 .modal-window-form-policy-input {
   appearance: none;
